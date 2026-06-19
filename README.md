@@ -20,22 +20,16 @@ Unlike conventional fitness apps, Macronik is designed for users dealing with sp
 
 ---
 
-## Health conditions addressed
+## Health conditions addressed (MVP)
 
-The app supports dietary tracking tailored to the following conditions:
+The MVP focuses on 6 metabolic conditions:
 
+- Nutrient optimization (general wellness)
 - Iron-deficiency anemia
 - Childhood obesity
-- Food selectivity and micronutrient deficiencies (Vitamins A and D)
-- Gastritis and gastroesophageal reflux
-- Vitamin D and B12 deficiency
-- Dyslipidemia (high triglycerides)
 - Arterial hypertension
-- Type 2 diabetes / insulin resistance
-- Hepatic steatosis (fatty liver)
-- Osteoporosis and osteopenia
-- Sarcopenia
-- Mild to moderate renal insufficiency
+- Insulin resistance
+- Renal insufficiency
 
 ---
 
@@ -73,6 +67,14 @@ macronik.app/
 │   └── ISSUE_TEMPLATE/
 └── README.md
 ```
+
+## Architecture decisions
+
+Key technical decisions are documented as ADRs in [`docs/adr/`](./docs/adr):
+
+- [ADR-001 — Mobile framework: React Native + Expo](./docs/adr/ADR-001-mobile-framework.md)
+- [ADR-002 — Backend framework: Java + Spring Boot](./docs/adr/ADR-002-backend-framework.md)
+- [ADR-003 — Database: PostgreSQL](./docs/adr/ADR-003-database.md)
 
 ## Documentation
 
